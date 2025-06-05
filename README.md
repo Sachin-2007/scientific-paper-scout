@@ -27,7 +27,6 @@ cd scientific-paper-scout
 
 2. Backend Setup:
 ```bash
-cd scout
 poetry install
 ```
 
