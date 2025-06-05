@@ -14,7 +14,7 @@ PaperScout is a tool that helps researchers find and summarize academic papers f
 
 * Python 3.8+
 * Node.js 16+
-* Poetry
+* pip
 * npm
 
 ## Setup
@@ -27,7 +27,13 @@ cd scientific-paper-scout
 
 2. Backend Setup:
 ```bash
-poetry install
+cd scout
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On Unix or MacOS:
+source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 3. Create `.env` file in `scout` directory:
@@ -48,7 +54,8 @@ npm install
 1. Start Backend:
 ```bash
 cd scout
-poetry run python app.py
+# Make sure your virtual environment is activated
+python app.py
 ```
 
 2. Start Frontend:
@@ -63,7 +70,8 @@ npm run dev
 
 ```bash
 cd scout
-poetry run python main.py
+# Make sure your virtual environment is activated
+python main.py
 ```
 
 Follow the prompts to:
