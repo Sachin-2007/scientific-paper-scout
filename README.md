@@ -22,7 +22,7 @@ PaperScout is a tool that helps researchers find and summarize academic papers f
 ### 1. Clone the repository
 
 ```bash
-git clone [<repository-url>](https://github.com/Sachin-2007/scientific-paper-scout.git)
+git clone https://github.com/Sachin-2007/scientific-paper-scout.git
 cd paperscout
 ```
 
